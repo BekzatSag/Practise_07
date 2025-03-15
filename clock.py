@@ -35,7 +35,6 @@ second_arrow = second_arrow_original
 
 running = True
 while running:
-    clock.tick(1)
     for event in pygame.event.get():
         if event.type == pygame.QUIT: sys.exit()
 
